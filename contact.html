@@ -6,46 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Craig</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body>
+<body class="position-relative">
     <header>
-        <div class="row">
+        <div class="row position-relative" style="margin: 0px;">
             <div class="col-3">
                 <p></p>
             </div>
             <div class="col-3">
-                <div class="Name">
-                    <strong><h1>Craig McAlister</h1></strong>
+                <div class="Name position-absolute">
+                    <h2>Craig McAlister</h2>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="col-1">
+                 <p></p>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-3">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">About</a>
+                        <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
                     </div>
                 </div>
             </nav>
+            <div class="col-3">
+                <p></p>
+            </div>
         </div>
     </header>
-    <div class="row">
-        <div class="col-3">
-            <p></p>
-        </div>
-        <div class="col-6">
-    
-        </div>
-        <div class="col-3">
-            <p></p>
+    <div class="content">
+        <div class="main row" style="height: 767px; margin: 0px;">
+            <div class="col-3">
+                <p></p>
+            </div>
+            <div class="col-6" style="width: 960px; height: 500px; background-color: #ffffff; top: 50px;">
+                    <h2>About me</h2>
+                    <hr>
+                    <img class="pic" src="assets/images/Craig.jpg" alt="picture of Craig">
+                    <p class="about">Hello! I am from Belmont, NC. I graduated from South Point high school in Belmont.
+                                 I decided then to go into retail sales instead of going to college. I have been in retail for 18 years mainly between Best Buy and T-Mobile.
+                                  I am always trying to learn something new. I started messing around on code academy and thought I would like to do this for a profession, 
+                                  and now here I am starting a new journey!
+                    </p>
+                    <p class="about"> I currently live in Gastonia, NC, with my dog Homie.  I am currently a mobile expert with T-Mobile.  I have been at T-Mobile 
+                                for 10 years.  I love the company, but as I said before I have been in retail for a long time.  I am ready for a new chapter in my life.  
+                                That is what brought me to the coding boot camp at UNC-C.  Hobbies I enjoy are gaming, sports, yoga, and reading.
+                    </p>
+            </div>
+            <div class="col-3">
+                <p></p>
+            </div>
         </div>
     </div>
-    <hr class="teal">
-    <footer>
-        <p class="copyright">Copyright</p>
+    <div class="row" style="margin: 0px; height: 10px; background-color: #4aaaa5;">
+        <p></p>
+    </div>
+    <footer class="row" style="background-color: #666666; height: 70px; margin: 0px;">
+        <p class="col-5"></p>
+        <p class="col-2" style="">Copyright</p>
+        <p class="col-5"></p>
     </footer>
 </body>
 </html>

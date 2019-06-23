@@ -1,0 +1,27 @@
+.main {
+    background-image: url("./images/beige-tiles/beige-tiles.png");
+}
+.pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+}
+.Name {
+    background-color: #4aaaa5;
+    height: 70px;
+    padding: 10px;
+    color: #ffffff;
+    margin: 0px;
+}
+.about {
+    line-height: 2em;
+    word-spacing: 1px;
+    padding: 5px;
+}
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
