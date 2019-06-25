@@ -1,76 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Craig's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body class="position-relative">
-    <header>
-        <div class="row position-relative" style="margin: 0px;">
-            <div class="col-3">
-                <p></p>
-            </div>
-            <div class="col-3">
-                <div class="Name position-absolute">
-                    <h2>Craig McAlister</h2>
-                </div>
-            </div>
-            <div class="col-1">
-                 <p></p>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light col-3">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+            <h1>Craig McAlister</h1>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    </div>
+                <div class="collapse navbar-collapse p-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
-            <div class="col-3">
-                <p></p>
-            </div>
         </div>
-    </header>
-    <div class="content">
-        <div class="main row" style="height: 767px; margin: 0px;">
-            <div class="col-3">
-                <p></p>
-            </div>
-            <div class="col-6" style="width: 960px; height: 500px; background-color: #ffffff; top: 50px;">
-                    <h2>About me</h2>
-                    <hr>
-                    <img class="pic" src="assets/images/Craig.jpg" alt="picture of Craig">
-                    <p class="about">Hello! I am from Belmont, NC. I graduated from South Point high school in Belmont.
-                             I decided then to go into retail sales instead of going to college. I have been in retail for 18 years mainly between Best Buy and T-Mobile.
-                              I am always trying to learn something new. I started messing around on code academy and thought I would like to do this for a profession, 
-                              and now here I am starting a new journey!
-                    </p>
-                    <p class="about"> I currently live in Gastonia, NC, with my dog Homie.  I am currently a mobile expert with T-Mobile.  I have been at T-Mobile 
-                            for 10 years.  I love the company, but as I said before I have been in retail for a long time.  I am ready for a new chapter in my life.  
-                            That is what brought me to the coding boot camp at UNC-C.  Hobbies I enjoy are gaming, sports, yoga, and reading.
-                    </p>
-    
-            </div>
-            <div class="col-3">
-                <p></p>
-            </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row jumbotron" id="jumbotron">
+        <div class="col-3"></div>
+        <div class="col-6 position-relative" id="portfolio">
+            <h3>Portfolio</h3>
+            <hr>
+            <img src="./assets/images/technics-q-c-200-200-10.jpg" alt="picture of MP3 player">
+            <p id="hangman">Hangman</p>
+            <img src="./assets/images/technics-q-c-200-200-2.jpg" alt="picture of dj table">
+            <p id="rpg">RPG Game</p>
+            <img src="./assets/images/technics-q-c-200-200-3.jpg" alt="picture of a laptop">
+            <p id="trivia">Trivia Game</p>
+            <img src="./assets/images/technics-q-c-200-200-6.jpg" alt="picture of headphones">
+            <p id="rutger">Rutgers Info Widget</p>
+            <img src="./assets/images/technics-q-c-200-200-9.jpg" alt="picture of a tv">
+            <p id="rock">Rock Paper Scissors</p>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-12 ">
+            <hr id="teal">
         </div>
     </div>
-    <div class="row" style="margin: 0px; height: 10px; background-color: #4aaaa5;">
-        <p></p>
+    <div class="row">
+        <div class="col-12 jumbotron text-center" id="footer">Copyright</div>
     </div>
-    <footer class="row" style="background-color: #666666; height: 70px; margin: 0px;">
-        <p class="col-5"></p>
-        <p class="col-2" style="">Copyright</p>
-        <p class="col-5"></p>
-    </footer>
-</body>
+</div>
+
+
 </html>
